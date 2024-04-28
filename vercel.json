@@ -4,7 +4,9 @@
       { "src": "server.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "handle": "vercel", "src": "/(.*)" }
+      {
+          "src":"/(.*)",
+          "desk":"/"
     ]
   }
   
